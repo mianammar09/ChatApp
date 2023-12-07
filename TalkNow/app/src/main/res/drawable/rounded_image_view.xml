@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape
+            android:shape="rectangle">
+            <solid android:color="@color/icon_background" /> <!-- Set your background color here -->
+            <corners android:radius="@dimen/_8sdp" /> <!-- Adjust the radius as needed -->
+        </shape>
+    </item>
+    <item android:id="@android:id/content">
+        <bitmap
+            android:src="@drawable/icon2"/><!-- Replace with your image resource -->
+        android:gravity="center" />
+    </item>
+</layer-list>
